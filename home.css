@@ -88,5 +88,6 @@ section{
 }
 
 .PokemonItem:hover h1{
+    transition: .5s;
     color: #992832;
 }
