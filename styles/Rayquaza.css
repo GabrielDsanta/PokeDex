@@ -44,8 +44,45 @@ main{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    margin-top: 10rem;
     color: #FFF;
+    margin-top: 5rem;
+}
+
+.NavPokedex{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Anterior{
+    margin-left: 5rem;
+    background-color: #403d3d;
+    padding: 1rem;
+    border-radius: .3rem;
+}
+
+.Proximo{
+    margin-right: 5rem;
+    background-color: #d53b47;
+    padding: 1rem;
+    border-radius: .3rem;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.Proximo:hover{
+    transition-duration: 1s;
+    border: solid 1px black;
+}
+
+.Anterior:hover{
+    transition-duration: 1s;
+    border: solid 1px #d53b47;
+    color: #d53b47;
 }
 
 .Pokemon{

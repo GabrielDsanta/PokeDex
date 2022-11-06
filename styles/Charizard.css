@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #2b2a2c;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #d53b47;
+    border-radius: 0 0 1rem 1rem;
+    padding: 1rem;
+}
+
+header img{
+    margin-left: 52rem;
+}
+
+header nav{
+    margin-left: 35rem;
+}
+
+header a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1rem;
+    margin-right: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover{
+    transition: .5s;
+    color: black;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    color: #FFF;
+}
+
+.NavPokedex{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: right;
+    margin-right: 5rem;
+    align-items: center;
+}
+
+.Proximo{
+    background-color: #d53b47;
+    padding: 1rem;
+    border-radius: .3rem;
+}
+
+.Proximo:hover{
+    transition-duration: 1s;
+    border: solid 1px black;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.Pokemon{
+    text-align: center;
+    background-color: #403d3d;
+    margin-top: -5rem;
+    border-radius: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    margin-right: 4rem;
+}
+
+.Pokemon img{
+    object-fit: contain;
+}
+
+.PokeNames{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Description{
+    background-color: #2b2a2c;
+    width: 15rem;
+    height: 2rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    font-size: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PokeInfos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -5rem;
+}
+
+.PokeInfos h1{
+    margin-bottom: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+.Status{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.PokeInfosValues{
+    display: flex;
+    margin-left: 1rem;
+    align-items: center;
+}
+
+.PokeInfosValuesHP{
+    display: flex;
+    margin-left: 1.5rem;
+    align-items: center;
+}
+
+.PokeInfosValuesEXP{
+    display: flex;
+    margin-left: 1.2rem;
+    align-items: center;
+}
+
+.PokeInfosValuesDEF{
+    display: flex;
+    margin-left: 1.2rem;
+    align-items: center;
+}
+
+.PokeInfosValues span{
+    padding: .3rem;
+}
+
+.HpCharizard, .EXPCharizard{
+    background-color: #403d3d;
+    padding-left: 20.5rem;
+    border-radius: .3rem;
+    height: 1.4rem;
+    width: 25rem;
+}
+
+.ATKCharizard{
+    background-color: #403d3d;
+    padding-left: 17rem;
+    padding-right: 4.5rem;
+    border-radius: .3rem;
+    width: 17.5rem;
+    height: 1.4rem;
+}
+
+.DEFCharizard{
+    background-color: #403d3d;
+    padding-left: 15.2rem;
+    margin-right: -2.1rem;
+    border-radius: .3rem;
+    width: 23.8rem;
+    height: 1.4rem;
+}
+
+.SPDCharizard{
+    background-color: #403d3d;
+    padding-left: 20rem;
+    padding-right: 4.5rem;
+    border-radius: .3rem;
+    width: 18rem;
+    height: 1.4rem;
+}
+
+.BackgroundPokeInfo{
+    background-color: #FFF;
+    height: 1.4rem;
+    border-radius: .1rem .3rem .3rem .1rem;
+    width: 11rem;
+}
+
+.BackgroundPokeInfoATK{
+    background-color: #FFF;
+    height: 1.4rem;
+    width: 14.4rem;
+    border-radius: .1rem .3rem .3rem .1rem;
+}
+
+.BackgroundPokeInfoDEF{
+    background-color: #FFF;
+    height: 1.4rem;
+    width: 14rem;
+    border-radius: .1rem .3rem .3rem .1rem;
+}
+
+.BackgroundPokeInfoSPD{
+    background-color: #FFF;
+    height: 1.4rem;
+    width: 11.5rem;
+    border-radius: .1rem .3rem .3rem .1rem;
+}
