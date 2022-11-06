@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+
+* {
+    margin: 0;
+    font-family: Sora;
+    padding: 0;
+}
+
+section {
+    background-color: #2b2a2c;
+    display: flex;
+}
+
+.left {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left>img {
+    background-color: #403d3d;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 100%;
+}
+
+.form-box {
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+    width: 60%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    text-align: left;
+}
+
+.formAgroup {
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+}
+
+.inputStyle {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(213, 59, 71);
+}
+
+.inputStyle::placeholder {
+    color: white;
+    font-weight: 100;
+}
+
+#button {
+    cursor: pointer;
+    border: 2px solid rgb(213, 59, 71);
+    transition: 1s all;
+}
+
+#button:hover {
+    color: rgb(213, 59, 71);
+    background-color: transparent;
+}
