@@ -73,12 +73,57 @@ a{
 
 .Pokemon{
     text-align: center;
-    background-color: #403d3d;
     margin-top: -5rem;
+    background-color: #403d3d;
     border-radius: 1rem;
     padding-bottom: 2rem;
     padding-top: 1rem;
     margin-right: 4rem;
+    transition: 0.5s all;
+    display: flex;
+    width: 400px;
+}
+
+.Prop {
+    display: none;
+}
+
+.Pokemon:hover .Prop {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.5s all;
+}
+
+.Pokemon:hover {
+    transition-duration: 1s;
+    width: 1000px;
+    transition-timing-function: linear;
+    transition: 0.5s all;
+}
+
+.GroupProp {
+    display: flex;
+    justify-content: space-around;
+    transition: 0.5s all;
+}
+
+.GroupProp>div>p {
+    font-size: 28px;
+    transition: 0.5s all;
+}
+
+.alter {
+    font-size: 28px;
+    font-weight: bold;
+    color: #d53b47;
+    margin-bottom: 5px;
+    transition: 0.5s all;
+    margin-top: 2rem;
+}
+
+.Prop h2{
+    padding-right: 2rem;
 }
 
 .Pokemon img{
