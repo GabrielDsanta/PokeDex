@@ -49,6 +49,11 @@ section{
     justify-content: center;
 }
 
+.LinkPokemons{
+    text-decoration: none;
+    color: #FFF;
+}
+
 .PokemonItem{
     width: 17.5rem;
     height: 13rem;

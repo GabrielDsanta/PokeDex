@@ -42,8 +42,8 @@ header a:hover{
 
 main{
     display: flex;
-    align-items: flex-start;
     justify-content: center;
+    margin-top: 10rem;
     color: #FFF;
     margin-top: 5rem;
 }
@@ -136,7 +136,7 @@ a{
 }
 
 .Prop h2{
-    padding-right: 2rem;
+    padding: .5rem;
 }
 
 .Pokemon img{
@@ -206,65 +206,80 @@ a{
     padding: .3rem;
 }
 
-.HpRayquaza, .EXPRaquaza{
+.HpGroudon{
     background-color: #403d3d;
-    padding-left: 14.04rem;
+    padding-left: 25.5rem;
     border-radius: .3rem;
     height: 1.4rem;
-    width: 18rem;
+    width: 30rem;
 }
 
-.ATKRayquaza{
+.ATKGroudon{
     background-color: #403d3d;
-    padding-left: 17rem;
-    padding-right: 4.5rem;
-    border-radius: .3rem;
-    width: 17.5rem;
-    height: 1.4rem;
-}
-
-.DEFRayquaza{
-    background-color: #403d3d;
-    padding-left: 10rem;
+    padding-left: 17.3rem;
     margin-right: -2.1rem;
     border-radius: .3rem;
-    width: 18rem;
+    width: 25.8rem;
     height: 1.4rem;
 }
 
-.SPDRayquaza{
+.DEFGroudon{
     background-color: #403d3d;
-    padding-left: 20rem;
-    padding-right: 4.5rem;
+    padding-left: 27.3rem;
     border-radius: .3rem;
-    width: 18rem;
+    width: 32rem;
     height: 1.4rem;
 }
 
-.BackgroundPokeInfo{
-    background-color: #FFF;
+.SPDGroudon{
+    background-color: #403d3d;
+    padding-left: 10rem;
+    padding-right: 3.8rem;
+    border-radius: .3rem;
+    width: 12rem;
     height: 1.4rem;
-    border-radius: .1rem .3rem .3rem .1rem;
-    width: 18rem;
+}
+
+.EXPGroudon{
+    background-color: #403d3d;
+    padding-left: 15.5rem;
+    padding-right: 1rem;
+    border-radius: .3rem;
+    width: 19rem;
+    height: 1.4rem;
 }
 
 .BackgroundPokeInfoATK{
     background-color: #FFF;
     height: 1.4rem;
-    width: 14.5rem;
+    width: 12rem;
     border-radius: .1rem .3rem .3rem .1rem;
 }
 
 .BackgroundPokeInfoDEF{
     background-color: #FFF;
     height: 1.4rem;
-    width: 20rem;
+    width: 3.5rem;
     border-radius: .1rem .3rem .3rem .1rem;
 }
 
 .BackgroundPokeInfoSPD{
     background-color: #FFF;
     height: 1.4rem;
-    width: 11.5rem;
+    width: 22rem;
+    border-radius: .1rem .3rem .3rem .1rem;
+}
+
+.BackgroundPokeInfoEXP{
+    background-color: #FFF;
+    height: 1.4rem;
+    width: 16.5rem;
+    border-radius: .1rem .3rem .3rem .1rem;
+}
+
+.BackgroundPokeInfo{
+    background-color: #FFF;
+    height: 1.4rem;
+    width: 6rem;
     border-radius: .1rem .3rem .3rem .1rem;
 }
