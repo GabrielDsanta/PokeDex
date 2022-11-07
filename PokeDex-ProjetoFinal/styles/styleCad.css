@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+
+* {
+    margin: 0;
+    font-family: Sora;
+    padding: 0;
+}
+
+body{
+    background-color: #2b2a2c;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #d53b47;
+    border-radius: 0 0 1rem 1rem;
+    padding: 1rem;
+}
+
+header img{
+    margin-left: 52rem;
+}
+
+header nav{
+    margin-left: 35rem;
+}
+
+header a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1rem;
+    margin-right: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+header a:hover{
+    transition: .5s;
+    color: black;
+}
+
+main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Left{
+    margin-left: 20rem;
+}
+
+.left>img {
+    background-color: #403d3d;
+    padding: 1.25rem;
+    border-radius: 1.25rem;
+    object-fit: contain;
+    margin-top: 10rem;
+}
+
+
+.right {
+    margin-left: 5rem;
+    width: 50vw;
+}
+
+.form-box {
+    padding: 1.25rem;
+    text-align: center;
+    width: 60%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    text-align: left;
+}
+
+.formAgroup {
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+}
+
+.inputStyle {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(213, 59, 71);
+}
+
+.inputStyle::placeholder {
+    color: white;
+    font-weight: 100;
+}
+
+#button {
+    margin-top: 1rem;
+    cursor: pointer;
+    border: 2px solid rgb(213, 59, 71);
+    transition: 1s all;
+}
+
+#button:hover {
+    color: rgb(213, 59, 71);
+    background-color: transparent;
+}
+
+.left img:hover{
+    transition-duration: .5s;
+    transition-timing-function: linear;
+    padding: 1.5rem;
+    border: solid 1px #d53b47;
+}
